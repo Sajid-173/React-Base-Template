@@ -15,16 +15,18 @@ This is a base template for projects using Redux Toolkit and React Router DOM, a
 │   ├── index.html
 │   └── ...
 ├── src
-│   ├── components
-│   ├── Containers/Pages
-│   │   ├── AppLayout (Route Layouts)
+│   ├── Components
+│   │   └── Header
+│   ├── Pages
+│   │   ├── AppLayout (App layout defined here)
 │   │   ├── LandingPage
 │   │   └── ...
 │   ├── Redux
 │   │   ├── RootSaga
+│   │   ├── RootSlice
 │   │   ├── Slice
 │   │   └── Store
-│   ├── App.tsx
+│   ├── App.tsx (Routes defined here)
 │   ├── index.tsx
 │   └── ...
 ├── .gitignore
@@ -108,6 +110,3 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to modify any sections based on your specific project details!
