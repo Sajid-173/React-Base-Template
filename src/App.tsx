@@ -1,8 +1,8 @@
 import "./App.css";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import LandingPage from "./Container/Landing";
-import AppLayout from "./Container/AppLayout";
+import LandingPage from "./Pages/Landing";
+import AppLayout from "./Pages/AppLayout";
 
 
 const App = () => {

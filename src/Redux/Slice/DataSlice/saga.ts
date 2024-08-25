@@ -8,12 +8,7 @@ import { API_URL } from "../../../constants";
 
 
 export function* getDataSaga({ payload }: any): any {
-  const { text, voice } = payload;
-  const audioPayload = {
-    text: text,
-    voice: voice,
-  };
-  const requestUrl = `http://${API_URL}:80/audiogen`;
+  const requestUrl = `http://${API_URL}/localapi`;
   try {
     const data = yield call(() =>
       fetch(requestUrl, {
@@ -21,7 +16,7 @@ export function* getDataSaga({ payload }: any): any {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(audioPayload),
+        body: JSON.stringify(payload),
       })
     );
     const parsedData = yield data.json();
