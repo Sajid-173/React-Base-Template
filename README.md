@@ -1,5 +1,3 @@
-# Getting Started with Create React App (Chatgpt wrote this, don't come after me)
-
 # Redux Base Template
 
 This is a base template for projects using Redux Toolkit and React Router DOM, along with a predefined folder structure to help you get started quickly.
