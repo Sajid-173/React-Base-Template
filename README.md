@@ -1,8 +1,4 @@
-# Getting Started with Create React App
-
-Here’s a template for your `README.md` file:
-
----
+# Getting Started with Create React App (Chatgpt wrote this, don't come after me)
 
 # Redux Base Template
 
@@ -52,11 +48,11 @@ Make sure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/repo-name.git
+    git clone https://github.com/Sajid-173/React-Base-Template.git
     ```
 2. Navigate into the project directory:
     ```bash
-    cd repo-name
+    cd React-Base-Template
     ```
 3. Install dependencies:
     ```bash
