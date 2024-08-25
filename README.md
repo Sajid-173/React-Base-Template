@@ -15,16 +15,18 @@ This is a base template for projects using Redux Toolkit and React Router DOM, a
 │   ├── index.html
 │   └── ...
 ├── src
-│   ├── components
-│   ├── Containers/Pages
-│   │   ├── AppLayout (Route Layouts)
+│   ├── Components
+│   │   └── Header
+│   ├── Pages
+│   │   ├── AppLayout (App layout defined here)
 │   │   ├── LandingPage
 │   │   └── ...
 │   ├── Redux
 │   │   ├── RootSaga
+│   │   ├── RootSlice
 │   │   ├── Slice
 │   │   └── Store
-│   ├── App.tsx
+│   ├── App.tsx (Routes defined here)
 │   ├── index.tsx
 │   └── ...
 ├── .gitignore
