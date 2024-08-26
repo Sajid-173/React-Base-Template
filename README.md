@@ -24,8 +24,8 @@ This is a base template for projects using Redux Toolkit and React Router DOM, a
 │   ├── Redux
 │   │   ├── RootSaga
 │   │   ├── RootSlice
-│   │   ├── Slice
-│   │   └── Store
+│   │   ├── Slice (Slices and Sagas are here based on Modules)
+│   │   └── Store 
 │   ├── App.tsx (Routes defined here)
 │   ├── index.tsx
 │   └── ...
