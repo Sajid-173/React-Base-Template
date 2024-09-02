@@ -1,6 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
-import dataReducer from "../Slice/DataSlice/index";
 import rootSaga from "../RootSaga";
 import rootReducer from "../RootSlice";
 
